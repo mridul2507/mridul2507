@@ -37,6 +37,17 @@ jobs:
         run: |
           python scripts/fetch_contributions.py
 
+      - name: Verify fetched data
+        run: |
+          python - << 'EOF'
+          import json
+          with open("data/contributions.json") as f:
+              d = json.load(f)
+          print("Username:", d.get("username"))
+          print("Total:", d.get("total_contributions"))
+          print("Current streak:", d.get("current_streak"))
+          EOF
+
       - name: Generate SVG
         run: |
           python scripts/render_heatmap_svg.py

@@ -195,6 +195,14 @@ def render(data):
 if __name__ == "__main__":
     data = json.load(open(IN_PATH))
     svg = render(data)
-    with open(OUT_PATH, "w") as f:
+    print("========== DEBUG ==========")
+    print("Input file :", IN_PATH)
+    print("Output file:", OUT_PATH)
+    print("Total contributions:", data["total_contributions"])
+    print("Current streak:", data["current_streak"]["length"])
+    print("Longest streak:", data["longest_streak"]["length"])
+
+    with open(OUT_PATH, "w", encoding="utf-8") as f:
         f.write(svg)
-    print(f"wrote {OUT_PATH} ({len(svg)} bytes)")
+
+    print(f"Wrote {OUT_PATH} ({len(svg)} bytes)")
