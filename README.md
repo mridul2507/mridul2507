@@ -19,19 +19,9 @@
 <br>
 <br>
 
-<!-- animated contribution graph: real data, boxes reveal cell by cell
-     (regenerated daily by .github/workflows/update-profile-art.yml) -->
-
-<h3><code>mridul@github ~ $ ./contributions.sh</code></h3>
-
-<img src="./contrib-heatmap.svg" width="860" alt="Mridul's GitHub contribution graph — auto-refreshed daily" />
-
-<br>
-<br>
-
 <h3><code>mridul@github ~ $ ./links.sh</code></h3>
 
-<p><b>Fullstack Developer · AI Builder · Instructor</b></p>
+<p><b>Fullstack Developer · Learning Agility </b></p>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-thissidemridul-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/thissidemridul)
 
