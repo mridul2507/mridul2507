@@ -11,8 +11,8 @@
 
 <table>
 <tr>
-<td valign="top"><img src="./avi-ascii.svg" width="370" alt="Avi Vashishta — ASCII portrait" /></td>
-<td valign="top"><img src="./wordmark.svg" width="490" alt="AVI — 3D ASCII wordmark" /></td>
+<td valign="top"><img src="./mridul-ascii.svg" width="370" alt="Mridul Srivastava — ASCII portrait" /></td>
+<td valign="top"><img src="./wordmark.svg" width="490" alt="MS — 3D ASCII wordmark" /></td>
 </tr>
 </table>
 
@@ -24,7 +24,7 @@
 
 <h3><code>mridul@github ~ $ ./contributions.sh</code></h3>
 
-<img src="./contrib-heatmap.svg" width="860" alt="Avi's GitHub contribution graph — auto-refreshed daily" />
+<img src="./contrib-heatmap.svg" width="860" alt="Mridul's GitHub contribution graph — auto-refreshed daily" />
 
 <br>
 <br>
